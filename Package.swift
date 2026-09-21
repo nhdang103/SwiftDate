@@ -24,5 +24,6 @@ let package = Package(
         .testTarget(
             name: "SwiftDateTests",
             dependencies: ["SwiftDate"])
-    ]
+    ],
+	swiftLanguageModes: [.v5],
 )
