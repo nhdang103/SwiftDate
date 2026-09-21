@@ -16,10 +16,10 @@ let package = Package(
         .target(
             name: "SwiftDate",
             dependencies: [],
-			resources: [
-				.copy("Formatters/RelativeFormatter/langs"),
-                .process("Resources")
-			]),
+			// resources: [
+			// 	.copy("Formatters/RelativeFormatter/langs"),
+            //     .process("Resources")
+			// ]),
         .testTarget(
             name: "SwiftDateTests",
             dependencies: ["SwiftDate"])
